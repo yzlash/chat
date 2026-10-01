@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background: #111111;
+    color: white;
+    transition: 0.3;
+}
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(
+        180deg,
+        #4700ff,
+        #111111
+    );
+}
+header h1 {
+    margin-bottom: 10px;
+    font-size: 36px;
+}
+header p {
+    font-size: 18px;
+    color: #eeeeee;
+}
+main {
+width: 90%;
+max-width: 900px;
+margin: 30px auto;
+}
+.card {
+    background: #1c1c1c;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    border: 1px solid #333333;
+    text-align: center;
+}
+.cardChat {
+    background: #1c1c1c;
+    min-height: 400px;
+    height: auto;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    border: 1px solid #333333;
+    text-align: left;
+}
+button {
+    border: none;
+    padding: 12px 18px;
+    margin: 5px;
+    border-radius: 12px;
+    background: #4700ff;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+button:hover {
+    transform: scale(1.05);
+    background: #111111;
+}
+.round-image {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #4700FF;
+    display: block;
+    margin: 20px auto;
+}
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #4700FF;
+}
+input {
+    text-align: center;
+    background: #1c1c1c;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border: 5px solid #4700FF;
+    border-radius: 20px;
+    padding: 12px 18px;
+}
+#imageInput {
+    width: 250px;
+}
+.username {
+    color: #4700FF;
+    font-weight: bold;
+}
+#textBox {
+    width: 100%;
+    max-width: 350px;
+    text-align: left;
+    border: 2px solid #111111;
+}
+#chatMessages {
+    height: 350px;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+.chatInput {
+    display: flex;
+    gap: 5px;
+    width: 100%;
+    align-items: center;
+}
+.chatInput #textBox {
+    flex: 1;
+    width: auto;
+}
+.chatInput button {
+    flex-shrink: 0;
+}
