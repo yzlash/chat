@@ -88,7 +88,7 @@ textBox.addEventListener("keydown", function(event) {
     }
 });
 
-const socket = new WebSocket("ws://localhost:3000");
+const socket = new WebSocket("wss://chat-j1z3.onrender.com");
 socket.addEventListener("open", function() {
     console.log("connected");
 });
