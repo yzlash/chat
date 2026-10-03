@@ -8,6 +8,7 @@ const imageInput =
 document.querySelector("#imageInput");
 const profileImage =
 document.querySelector("#profileImage");
+const header = document.query.Selector(#header);
 
 imageInput.addEventListener("change", function() {
     const file = imageInput.files[0];
