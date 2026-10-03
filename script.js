@@ -8,7 +8,6 @@ const imageInput =
 document.querySelector("#imageInput");
 const profileImage =
 document.querySelector("#profileImage");
-const header = document.query.Selector("#header");
 
 imageInput.addEventListener("change", function() {
     const file = imageInput.files[0];
@@ -30,15 +29,12 @@ themeButton.addEventListener("click", function() {
     changeName.style.background = "#1c1c1c";
     imageInput.style.background = "#1c1c1c";
     document.body.classList.toggle("light");
-     header.style.background = "linear-gradient( 180deg, #4700ff, #1c1c1c";
     if (document.body.classList.contains("light")) {
         document.body.style.background = "#ffffff";
         card.style.backgroundColor = "#999999";
         changeName.style.background = "#999999";
         imageInput.style.background = "#999999";
         themeButton.textContent = "⭐ Light Mode";
-        header.style.background = "linear-gradient(
-        180deg, #4700ff, #999999";
     } else {
         themeButton.textContent = "🌙 Dark Mode";
     }
