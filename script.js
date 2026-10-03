@@ -30,12 +30,14 @@ themeButton.addEventListener("click", function() {
     changeName.style.background = "#1c1c1c";
     imageInput.style.background = "#1c1c1c";
     document.body.classList.toggle("light");
+     cardChat.style.background = "#1c1c1c";
     if (document.body.classList.contains("light")) {
         document.body.style.background = "#ffffff";
         card.style.backgroundColor = "#999999";
         changeName.style.background = "#999999";
         imageInput.style.background = "#999999";
         themeButton.textContent = "⭐ Light Mode";
+        cardChat.style.background = "#999999";
     } else {
         themeButton.textContent = "🌙 Dark Mode";
     }
