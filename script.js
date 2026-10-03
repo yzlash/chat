@@ -36,6 +36,7 @@ themeButton.addEventListener("click", function() {
         changeName.style.background = "#999999";
         imageInput.style.background = "#999999";
         themeButton.textContent = "⭐ Light Mode";
+        header.style.background = "
     } else {
         themeButton.textContent = "🌙 Dark Mode";
     }
