@@ -8,7 +8,7 @@ const imageInput =
 document.querySelector("#imageInput");
 const profileImage =
 document.querySelector("#profileImage");
-const card2 = document.querySelector(".card2");
+const cardChat= document.querySelector(".cardChat");
 
 imageInput.addEventListener("change", function() {
     const file = imageInput.files[0];
